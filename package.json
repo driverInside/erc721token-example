@@ -1,0 +1,22 @@
+{
+  "name": "erc721token-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driverInside/erc721token-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/driverInside/erc721token-example/issues"
+  },
+  "homepage": "https://github.com/driverInside/erc721token-example#readme"
+}
