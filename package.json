@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/driverInside/erc721token-example/issues"
   },
-  "homepage": "https://github.com/driverInside/erc721token-example#readme"
+  "homepage": "https://github.com/driverInside/erc721token-example#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "2.5.0",
+    "@truffle/hdwallet-provider": "1.0.34"
+  }
 }
