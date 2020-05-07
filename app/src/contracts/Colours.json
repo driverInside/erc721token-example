@@ -1862,9 +1862,84 @@
     "name": "solc",
     "version": "0.5.7+commit.6da8b019.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "33": {
+      "events": {
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        },
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "approved",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "operator",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "approved",
+              "type": "bool"
+            }
+          ],
+          "name": "ApprovalForAll",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xa18B757E41Bf5BA7BCFe37153D91d21Cb70334F0",
+      "transactionHash": "0x0e27431d67e74964eca1f4684b82461c1e69f74bd8382cfde5e0e9a682dd25cf"
+    }
+  },
   "schemaVersion": "3.1.0",
-  "updatedAt": "2020-05-07T21:39:07.579Z",
+  "updatedAt": "2020-05-07T22:25:29.349Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {
       "approve(address,uint256)": {
